@@ -1,5 +1,14 @@
 #! /usr/bin/python
 
+##########################################################
+#
+#  Name: Router.py 
+#
+#  Description :  Cisco router connection \
+#                 and configuration function
+#                 Genric SSH module for router connection
+#########################################################
+
 import re
 import sys
 import paramiko

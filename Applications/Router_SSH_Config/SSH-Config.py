@@ -1,5 +1,20 @@
 #! /usr/bin/python
 
+#################################################
+#  Name : SSH-Config.py
+#
+#  Description : Used to configure Cisco Router 
+#                
+#  command line :  -t  <testbed file>
+#                  -u  <User Input file>
+#                  -c  <configration command file>
+#
+#  Sample Usage :  SSH-Config.py -t router_ip.txt \
+#                                -u router_userpass.txt \
+#                                -c  router_config.txt
+#########################################################
+
+                  
 #############   Import Module #####################
 import paramiko
 import threading
